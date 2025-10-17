@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: Seguridad Nacional (Estilo Marketing) - Policía Nacional del Ecuador</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #e5e7eb;
+            background-color: #111827; /* Dark background */
+        }
+        .title-font {
+            font-family: 'Oswald', sans-serif;
+        }
+        .glass-card {
+            background: rgba(31, 41, 55, 0.6);
+            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .header-gradient {
+            background: linear-gradient(135deg, rgba(132, 59, 219, 0.8), rgba(28, 100, 242, 0.8));
+            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+        }
+        .red-glass-card {
+             background: rgba(225, 29, 72, 0.7);
+            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .text-glow-cyan {
+            text-shadow: 0 0 8px rgba(34, 211, 238, 0.8);
+        }
+         .text-glow-yellow {
+            text-shadow: 0 0 8px rgba(250, 204, 21, 0.8);
+        }
+         /* Timeline styles */
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background-color: rgba(34, 211, 238, 0.3);
+        }
+        .timeline-item {
+            position: relative;
+        }
+        .timeline-dot {
+            position: absolute;
+            top: 1.25rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #22d3ee;
+            border: 4px solid #111827;
+            box-shadow: 0 0 10px rgba(34, 211, 238, 0.8);
+            z-index: 10;
+        }
+        .timeline-content {
+            width: 45%;
+        }
+        .timeline-item:nth-child(even) .timeline-content {
+            float: right;
+            text-align: left;
+        }
+        .timeline-item:nth-child(odd) .timeline-content {
+            float: left;
+            text-align: right;
+        }
+        .timeline-item::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body class="relative min-h-screen overflow-x-hidden">
+
+    <!-- Orbes de fondo para el efecto líquido -->
+    <div class="absolute top-0 -left-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-lighten filter blur-3xl opacity-30 animate-blob"></div>
+    <div class="absolute top-0 -right-1/4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-lighten filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+    <div class="absolute -bottom-8 left-20 w-96 h-96 bg-pink-500 rounded-full mix-blend-lighten filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+
+    <div class="relative max-w-5xl mx-auto my-8 p-4 md:p-6 z-10">
+
+        <!-- Header -->
+        <header class="text-white p-6 md:p-8 text-center rounded-3xl header-gradient shadow-2xl">
+            <h1 class="title-font text-4xl md:text-6xl uppercase tracking-wider text-shadow">PROTESTAS SOCIALES Y EVENTOS TERRORISTAS</h1>
+            <p class="text-md md:text-xl text-blue-200 mt-2 text-shadow">Análisis Consolidado al 16 de Octubre de 2025</p>
+        </header>
+
+        <main class="mt-8 space-y-8">
+            
+            <!-- Análisis General -->
+            <section class="text-center p-6 rounded-3xl glass-card shadow-lg">
+                <h2 class="title-font text-3xl text-cyan-300 text-glow-cyan pb-2 mb-4">ANÁLISIS DE LA DOBLE AMENAZA</h2>
+                <div class="flex flex-wrap justify-center gap-6 mt-4">
+                    <div class="flex flex-col items-center p-4 rounded-2xl w-full md:w-5/12 transition-transform hover:scale-105" style="background: rgba(225, 29, 72, 0.3); border: 1px solid rgba(225, 29, 72, 0.5)">
+                        <svg class="h-12 w-12 text-red-300 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.75 1.75 0 01-2.133.023l-3.353-2.617A1.75 1.75 0 014.25 15.02V9.894a1.75 1.75 0 012.2-.08L11 5.882zM13 18.118V4.76a1.75 1.75 0 012.133-.023l3.353 2.617A1.75 1.75 0 0119.75 8.98V14.106a1.75 1.75 0 01-2.2.08L13 18.118z"></path></svg>
+                        <h3 class="font-bold text-2xl text-red-200 title-font">PROTESTAS SOCIALES</h3>
+                        <p class="text-gray-300">Conflictos y movilizaciones a nivel nacional.</p>
+                    </div>
+                    <div class="flex flex-col items-center p-4 rounded-2xl w-full md:w-5/12 text-white transition-transform hover:scale-105" style="background: rgba(250, 204, 21, 0.3); border: 1px solid rgba(250, 204, 21, 0.5)">
+                        <svg class="h-12 w-12 text-yellow-300 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <h3 class="font-bold text-2xl text-yellow-200 title-font">ATAQUE TERRORISTA</h3>
+                        <p class="text-gray-300">Acto de alta sofisticación en Guayaquil.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cronología -->
+            <section class="p-6 rounded-3xl glass-card shadow-lg">
+                <h2 class="title-font text-3xl text-cyan-300 text-glow-cyan pb-2 mb-6">LÍNEA DE TIEMPO</h2>
+                <div class="relative timeline-container py-4">
+                    <!-- Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="glass-card p-4 rounded-xl">
+                                <h3 class="font-bold text-cyan-300 text-lg">12 de Septiembre</h3>
+                                <p class="text-sm">Inician protestas por ajuste económico al subsidio del diésel.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                             <div class="glass-card p-4 rounded-xl">
+                                <h3 class="font-bold text-cyan-300 text-lg">18 de Septiembre</h3>
+                                <p class="text-sm">CONAIE convoca a paro nacional indefinido, escalando el conflicto.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="glass-card p-4 rounded-xl">
+                                <h3 class="font-bold text-orange-400 text-lg">28-29 de Septiembre</h3>
+                                <p class="text-sm">Emboscadas contra el convoy presidencial en Imbabura, utilizando <strong>armas incendiarias</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 4 -->
+                     <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                             <div class="glass-card p-4 rounded-xl">
+                                <h3 class="font-bold text-cyan-300 text-lg">04 de Octubre</h3>
+                                <p class="text-sm">Gobierno declara Estado de Excepción en 10 provincias.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Item 5 -->
+                     <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                             <div class="glass-card p-4 rounded-xl">
+                                <h3 class="font-bold text-red-400 text-lg">14 de Octubre</h3>
+                                <p class="text-sm">Ataque a convoy humanitario en Otavalo y atentado terrorista con coche bomba en Guayaquil.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Item 6 -->
+                     <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                             <div class="glass-card p-4 rounded-xl">
+                                <h3 class="font-bold text-cyan-300 text-lg">15 de Octubre</h3>
+                                <p class="text-sm">Se firman acuerdos entre la dirigencia indígena y el Gobierno.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Item 7 -->
+                     <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                             <div class="glass-card p-4 rounded-xl">
+                                <h3 class="font-bold text-orange-400 text-lg">16 de Octubre</h3>
+                                <p class="text-sm">Manifestantes en Imbabura desconocen los acuerdos firmados, manteniendo las tensiones.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- Datos Operacionales -->
+            <section class="p-6 rounded-3xl glass-card shadow-lg">
+                <h2 class="title-font text-3xl text-cyan-300 text-glow-cyan pb-2 mb-6">DATOS OPERACIONALES Y ESTADÍSTICAS</h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Columna Izquierda: Mapa y Aprehendidos -->
+                    <div>
+                        <h3 class="font-bold text-xl text-cyan-300 mb-3 title-font">FOCOS DE CONFLICTO (CIERRES VIALES)</h3>
+                        <div class="glass-card p-4 rounded-xl mb-6">
+                            <ul class="space-y-2 text-left">
+                                <li class="flex justify-between items-center"><span class="font-bold">IMBABURA</span><span class="text-2xl font-bold text-red-400">15</span></li>
+                                <li class="flex justify-between items-center"><span class="font-bold">PICHINCHA</span><span class="text-2xl font-bold text-orange-400">4</span></li>
+                                <li class="flex justify-between items-center"><span class="font-bold">CARCHI</span><span class="text-2xl font-bold text-yellow-400">3</span></li>
+                                <li class="flex justify-between items-center"><span class="font-bold">LOJA</span><span class="text-2xl font-bold text-yellow-400">3</span></li>
+                                <li class="flex justify-between items-center"><span class="font-bold">CAÑAR</span><span class="text-2xl font-bold text-green-400">1</span></li>
+                            </ul>
+                        </div>
+
+                        <h3 class="font-bold text-xl text-cyan-300 mb-3 title-font">TOTAL DE APREHENDIDOS: 137</h3>
+                        <div class="glass-card p-4 rounded-xl space-y-2">
+                             <div class="flex items-center text-sm"><div class="w-1/2">Paralización de Servicio Público</div><div class="w-1/2 bg-gray-700 rounded-full h-4"><div class="bg-cyan-400 h-4 rounded-full" style="width: 38.7%"></div></div><div class="w-12 text-right">53</div></div>
+                            <div class="flex items-center text-sm"><div class="w-1/2">Incumplimiento de Decisiones</div><div class="w-1/2 bg-gray-700 rounded-full h-4"><div class="bg-cyan-500 h-4 rounded-full" style="width: 15.3%"></div></div><div class="w-12 text-right">21</div></div>
+                             <div class="flex items-center text-sm"><div class="w-1/2">Terrorismo</div><div class="w-1/2 bg-gray-700 rounded-full h-4"><div class="bg-red-500 h-4 rounded-full" style="width: 11.7%"></div></div><div class="w-12 text-right">16</div></div>
+                             <div class="flex items-center text-sm"><div class="w-1/2">Ataque o Resistencia</div><div class="w-1/2 bg-gray-700 rounded-full h-4"><div class="bg-orange-500 h-4 rounded-full" style="width: 11.7%"></div></div><div class="w-12 text-right">16</div></div>
+                             <div class="flex items-center text-sm"><div class="w-1/2">Otros</div><div class="w-1/2 bg-gray-700 rounded-full h-4"><div class="bg-gray-500 h-4 rounded-full" style="width: 22.6%"></div></div><div class="w-12 text-right">31</div></div>
+                        </div>
+                    </div>
+                    <!-- Columna Derecha: Impacto -->
+                    <div>
+                        <h3 class="font-bold text-xl text-cyan-300 mb-3 title-font">IMPACTO LOGÍSTICO Y HUMANO</h3>
+                        <div class="glass-card p-4 rounded-xl mb-6">
+                            <h4 class="font-bold text-lg text-yellow-300">Daños a Medios Logísticos</h4>
+                            <div class="flex justify-around text-center mt-2">
+                                <div>
+                                    <p class="text-4xl">14</p>
+                                    <p class="text-sm">Vehículos</p>
+                                </div>
+                                <div>
+                                    <p class="text-4xl">02</p>
+                                    <p class="text-sm">Infraestructuras</p>
+                                </div>
+                            </div>
+                             <p class="text-xs text-center mt-2 text-gray-400">Incluye 4 vehículos y 4 motos incineradas en Otavalo.</p>
+                        </div>
+                        
+                        <div class="glass-card p-4 rounded-xl">
+                            <h4 class="font-bold text-lg text-yellow-300">Servidores Policiales Heridos: 28</h4>
+                             <ul class="space-y-2 text-left mt-2">
+                                <li class="flex justify-between items-center"><span class="font-bold">IMBABURA</span><span class="text-2xl font-bold text-red-400">16 (57%)</span></li>
+                                <li class="flex justify-between items-center"><span class="font-bold">DMQ</span><span class="text-2xl font-bold text-orange-400">4</span></li>
+                                <li class="flex justify-between items-center"><span class="font-bold">PICHINCHA</span><span class="text-2xl font-bold text-yellow-400">2</span></li>
+                                <li class="flex justify-between items-center"><span class="font-bold">BOLÍVAR</span><span class="text-2xl font-bold text-yellow-400">2</span></li>
+                                <li class="flex justify-between items-center"><span class="font-bold">SUCUMBÍOS</span><span class="text-2xl font-bold text-yellow-400">2</span></li>
+                                 <li class="flex justify-between items-center"><span class="font-bold">OTROS</span><span class="text-2xl font-bold text-green-400">2</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Ataque Terrorista -->
+            <section class="p-6 rounded-3xl glass-card shadow-lg text-white">
+                <h2 class="title-font text-3xl text-yellow-300 text-glow-yellow pb-2 mb-2">ANÁLISIS DEL ATAQUE TERRORISTA</h2>
+                <div class="text-center text-yellow-200 mb-6">
+                    <p class="text-lg">
+                        <span class="font-bold">Fecha:</span> 14 de Octubre, 2025
+                        <span class="mx-2">|</span>
+                        <span class="font-bold">Lugar:</span> Av. Joaquín Orrantia, Guayaquil
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-bold text-xl text-gray-100 mb-3 title-font">MODUS OPERANDI</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-300">
+                            <li><strong>Coche Bomba:</strong> Detonación de vehículo con explosivos.</li>
+                            <li><strong>Segundo Artefacto:</strong> Neutralizado en un segundo vehículo.</li>
+                            <li><strong>Composición:</strong> Explosivo minero (EMULSEN 5000X) amplificado con <strong>cuatro tanques de gas GLP.</strong></li>
+                            <li><strong>Activación Remota:</strong> Sistema detonado mediante teléfonos celulares.</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3 class="font-bold text-xl text-red-300 mb-3 text-center title-font">VÍCTIMAS</h3>
+                        <div class="grid grid-cols-2 gap-3 text-center">
+                            <div class="p-3 rounded-xl bg-black/30">
+                                <p class="title-font text-5xl text-red-400">1</p>
+                                <p class="font-bold text-gray-200">FALLECIDO</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-black/30">
+                                <p class="title-font text-5xl text-orange-400">2</p>
+                                <p class="font-bold text-gray-200">HERIDOS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Recomendación -->
+            <section class="p-6 rounded-3xl shadow-lg" style="background: rgba(251, 191, 36, 0.2); backdrop-filter: blur(12px); border: 1px solid rgba(251, 191, 36, 0.4);">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-12 w-12 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M8.257 3.099c.636-1.21 2.522-1.21 3.158 0l5.964 11.332A1.875 1.875 0 0115.626 17H4.374a1.875 1.875 0 01-1.755-2.569L8.257 3.099zM10 6a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 6zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="title-font text-2xl text-yellow-300 text-glow-yellow">RECOMENDACIÓN DE SEGURIDAD</h2>
+                        <p class="text-yellow-200 mt-1 text-lg"><strong>POSPONER todo viaje no esencial a la provincia de Imbabura.</strong> Persiste un conflicto activo y alto riesgo para la seguridad.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-gray-400 text-xs text-center p-4 mt-8">
+            <div class="flex justify-center items-center gap-x-10 mb-4">
+                <img src="https://github.com/Danny20251992/Protocolo-final/blob/main/img/DIGIN_logo-removebg-preview.png?raw=true" alt="Logo DIGIN" class="h-16 brightness-0 invert">
+            </div>
+            <p>Elaborado por el Departamento de Coordinación Operacional de la DIGIN</p>
+            <p>Policía Nacional del Ecuador - "Valor, Disciplina y Lealtad"</p>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+
